@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (0.1.0)
+  - LZLogin (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - Alamofire (from `Lib/Alamofire`)
+  - LZLogin (from `Lib/LZLogin`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :path: Lib/Alamofire
+  LZLogin:
+    :path: Lib/LZLogin
+
+SPEC CHECKSUMS:
+  Alamofire: fef542c151723dcfd092253d52d555f4852cec70
+  LZLogin: d9cd9c605a5fd0f2084c65b45afd0cb7936c4ea9
+
+PODFILE CHECKSUM: 1114fce980a357deaaa400d333cad4553b0f9c39
+
+COCOAPODS: 1.9.3

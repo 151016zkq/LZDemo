@@ -1,0 +1,22 @@
+{
+  "name": "Alamofire",
+  "version": "0.1.0",
+  "summary": "A short description of Alamofire.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/151016zkq/Alamofire",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "151016zkq": "zhangkaiqiang@16lao.com"
+  },
+  "source": {
+    "git": "https://github.com/151016zkq/Alamofire.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Alamofire/Classes/**/*"
+}

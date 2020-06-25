@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DCF6281214ED384EE4AF6BB47935488 /* LZLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C125DB54407DD92DA7344095C63A52 /* LZLogin-dummy.m */; };
+		317E18218547ED85344594D1CE44D15B /* Pods-LZDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */; };
+		34E056F3A24F43AD65217EB4ABBBF6EF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */; };
+		43B35D9C33DEDED91AAD246EE18BCCCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
+		4D131DAC2B09675930A0D2051726237F /* LZLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1A26B8CFD615D28EAB42625DE582FE /* LZLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6727B5488CDAEBC19CE90DC5CED5B7BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
+		8165AD57E20B1BF5B3594463144693E3 /* LZNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF9F37DBC7970E99C6631F4B5264AA3 /* LZNetWorking.swift */; };
+		9E079231803D369E90E0C6D5363D2E8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
+		B269D816D2EB4F313CCDF5B9119C4CFE /* Pods-LZDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C170F4227474BAD5E70751A7CB295B74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978AEFD264FA6D8952E46D7D5D9A2FB7 /* Login.swift */; };
+		C5CC70DE123D5EBF76E8AA72B1BBF5D2 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F27315E78305027D1A58362A25C82D7A /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB889A94E77FC8D028DB69543C45D213 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 027FF8D7AA1F8E38AA6E47989EE2AE2D /* Alamofire-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FE1E4A78D142B49C9CF0912DA708D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		4773BF98C134170E5F388757B90ED689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD60DBD99860790B705B6C545BAB09B;
+			remoteInfo = LZLogin;
+		};
+		D75D886AEFD88827B745695F8958C4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027FF8D7AA1F8E38AA6E47989EE2AE2D /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		0EF9F37DBC7970E99C6631F4B5264AA3 /* LZNetWorking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LZNetWorking.swift; path = Alamofire/Classes/LZNetWorking.swift; sourceTree = "<group>"; };
+		0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZDemo-umbrella.h"; sourceTree = "<group>"; };
+		105CB535B5A5C4083411BC7312EB4439 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1DAD02154877CC0072CD5E8382876E75 /* LZLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZLogin.framework; path = LZLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E01156F9F6E883DF0CE29F7A7FBB175 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		276495FE5812CD8EECC8B1AA1715535A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		2E9A7DB6C360FCA2F41F129A0D778AD2 /* LZLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LZLogin-Info.plist"; sourceTree = "<group>"; };
+		370069EF096B29CBF4D11F61B3CA207C /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C125DB54407DD92DA7344095C63A52 /* LZLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZLogin-dummy.m"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F904A3CB70980BE36ABF3464979197 /* Pods-LZDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E578766A120FC52A1747893AF021991 /* LZLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZLogin.debug.xcconfig; sourceTree = "<group>"; };
+		831E4D2ACA8F8C43483690132C66C845 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87BA3A5057012A8672C98CC173EAD0DC /* Pods-LZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.release.xcconfig"; sourceTree = "<group>"; };
+		885BA99A9C8C4A828011BBBACD07DA22 /* Alamofire.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Alamofire.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92179E10754EB866F6308649C5BB5894 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		950F53EABBDC5EF0AAA0979D2118FE0B /* LZLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZLogin.modulemap; sourceTree = "<group>"; };
+		978AEFD264FA6D8952E46D7D5D9A2FB7 /* Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Login.swift; path = LZLogin/Classes/Login.swift; sourceTree = "<group>"; };
+		9ABDB51A7519FD55334E61DB4D4AA50B /* Pods-LZDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B957BEFC0C10F6246D00455ADEA2BE6 /* LZLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZLogin.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD0BADAE703473B1FC192E236C8D619F /* Pods-LZDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B33A3E5CC56B10A79504CB452318BC3E /* LZLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZLogin-prefix.pch"; sourceTree = "<group>"; };
+		C20890B365DB7BA4C67A44656381D52C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C6E37C51C125E155692872271690182D /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		CD1A26B8CFD615D28EAB42625DE582FE /* LZLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZLogin-umbrella.h"; sourceTree = "<group>"; };
+		CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZDemo-dummy.m"; sourceTree = "<group>"; };
+		CFB4DAFA0870BF6832EB75C97EF6A31C /* Pods-LZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E21A3F7C249F7EACBBF3765348789B2E /* LZLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LZLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2792C8032A2DD29E8B0FA35646BF31E /* Pods-LZDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZDemo.modulemap"; sourceTree = "<group>"; };
+		E56A2399E07D6339C3F9167ED6B64E05 /* Pods-LZDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-Info.plist"; sourceTree = "<group>"; };
+		E785541CECA1C40EC89ED751EDAA3BAB /* Pods_LZDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZDemo.framework; path = "Pods-LZDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27315E78305027D1A58362A25C82D7A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		F27B9EBB366B73C77896A6E31C7DAEDD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7583301838DE65B19A81F6B3AD8E7121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6727B5488CDAEBC19CE90DC5CED5B7BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C92026CD06C4328AFD4F18C1924AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E056F3A24F43AD65217EB4ABBBF6EF /* Alamofire.framework in Frameworks */,
+				9E079231803D369E90E0C6D5363D2E8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3625D869590BEFF5FCA887AF886F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B35D9C33DEDED91AAD246EE18BCCCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0078EBF431CBFD3A7C1FE20B5AB719E4 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0EF9F37DBC7970E99C6631F4B5264AA3 /* LZNetWorking.swift */,
+				545647FFF0F2D6E50C56CB084617411F /* Pod */,
+				00CD86E57B1B6086A9D7CE2E518FB302 /* Support Files */,
+			);
+			name = Alamofire;
+			path = ../Lib/Alamofire;
+			sourceTree = "<group>";
+		};
+		00CD86E57B1B6086A9D7CE2E518FB302 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				276495FE5812CD8EECC8B1AA1715535A /* Alamofire.modulemap */,
+				027FF8D7AA1F8E38AA6E47989EE2AE2D /* Alamofire-dummy.m */,
+				92179E10754EB866F6308649C5BB5894 /* Alamofire-Info.plist */,
+				F27B9EBB366B73C77896A6E31C7DAEDD /* Alamofire-prefix.pch */,
+				F27315E78305027D1A58362A25C82D7A /* Alamofire-umbrella.h */,
+				370069EF096B29CBF4D11F61B3CA207C /* Alamofire.debug.xcconfig */,
+				C6E37C51C125E155692872271690182D /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */,
+				DBBD239EB7C1C83EA80124D1A53485AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41E18FAFA00927F01FD3272532033B63 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C20890B365DB7BA4C67A44656381D52C /* LICENSE */,
+				E21A3F7C249F7EACBBF3765348789B2E /* LZLogin.podspec */,
+				831E4D2ACA8F8C43483690132C66C845 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		41FB24FBF8520EBBE363D840B2C6227F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				1DAD02154877CC0072CD5E8382876E75 /* LZLogin.framework */,
+				E785541CECA1C40EC89ED751EDAA3BAB /* Pods_LZDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545647FFF0F2D6E50C56CB084617411F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				885BA99A9C8C4A828011BBBACD07DA22 /* Alamofire.podspec */,
+				105CB535B5A5C4083411BC7312EB4439 /* LICENSE */,
+				1E01156F9F6E883DF0CE29F7A7FBB175 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6CA8C8CBA323A8FF0DDA64B826A2C4C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				950F53EABBDC5EF0AAA0979D2118FE0B /* LZLogin.modulemap */,
+				55C125DB54407DD92DA7344095C63A52 /* LZLogin-dummy.m */,
+				2E9A7DB6C360FCA2F41F129A0D778AD2 /* LZLogin-Info.plist */,
+				B33A3E5CC56B10A79504CB452318BC3E /* LZLogin-prefix.pch */,
+				CD1A26B8CFD615D28EAB42625DE582FE /* LZLogin-umbrella.h */,
+				6E578766A120FC52A1747893AF021991 /* LZLogin.debug.xcconfig */,
+				9B957BEFC0C10F6246D00455ADEA2BE6 /* LZLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/LZLogin";
+			sourceTree = "<group>";
+		};
+		712D1F805EF6E915DC79ADCDD8ED1202 /* LZLogin */ = {
+			isa = PBXGroup;
+			children = (
+				978AEFD264FA6D8952E46D7D5D9A2FB7 /* Login.swift */,
+				41E18FAFA00927F01FD3272532033B63 /* Pod */,
+				6CA8C8CBA323A8FF0DDA64B826A2C4C1 /* Support Files */,
+			);
+			name = LZLogin;
+			path = ../Lib/LZLogin;
+			sourceTree = "<group>";
+		};
+		886E7731FFE949E971EB80D2E2593362 /* Pods-LZDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E2792C8032A2DD29E8B0FA35646BF31E /* Pods-LZDemo.modulemap */,
+				9ABDB51A7519FD55334E61DB4D4AA50B /* Pods-LZDemo-acknowledgements.markdown */,
+				67F904A3CB70980BE36ABF3464979197 /* Pods-LZDemo-acknowledgements.plist */,
+				CD8788DE8B1D5413036767130D24A492 /* Pods-LZDemo-dummy.m */,
+				AD0BADAE703473B1FC192E236C8D619F /* Pods-LZDemo-frameworks.sh */,
+				E56A2399E07D6339C3F9167ED6B64E05 /* Pods-LZDemo-Info.plist */,
+				0F978166516860BBD9C2CA223CFE1B9E /* Pods-LZDemo-umbrella.h */,
+				CFB4DAFA0870BF6832EB75C97EF6A31C /* Pods-LZDemo.debug.xcconfig */,
+				87BA3A5057012A8672C98CC173EAD0DC /* Pods-LZDemo.release.xcconfig */,
+			);
+			name = "Pods-LZDemo";
+			path = "Target Support Files/Pods-LZDemo";
+			sourceTree = "<group>";
+		};
+		BC5A96A3DA6A9988326323FCD8087DEF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				886E7731FFE949E971EB80D2E2593362 /* Pods-LZDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D4E3D87A259E4B2EBB59997E07AA7C38 /* Development Pods */,
+				2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */,
+				41FB24FBF8520EBBE363D840B2C6227F /* Products */,
+				BC5A96A3DA6A9988326323FCD8087DEF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E3D87A259E4B2EBB59997E07AA7C38 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0078EBF431CBFD3A7C1FE20B5AB719E4 /* Alamofire */,
+				712D1F805EF6E915DC79ADCDD8ED1202 /* LZLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DBBD239EB7C1C83EA80124D1A53485AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		799CC863B3E6083E755DFF6B6DC80ACE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D131DAC2B09675930A0D2051726237F /* LZLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0532F639114CD4F33F5197F05470DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CC70DE123D5EBF76E8AA72B1BBF5D2 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFE48994177D256D85CE5F179D81092 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B269D816D2EB4F313CCDF5B9119C4CFE /* Pods-LZDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C8AFAAFF5BB436796BA5A12E27496081 /* Pods-LZDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5DDA30D26FF9FDD811349C08122D23 /* Build configuration list for PBXNativeTarget "Pods-LZDemo" */;
+			buildPhases = (
+				DAFE48994177D256D85CE5F179D81092 /* Headers */,
+				2C04FB420628D9AB29CD517740B1BB8B /* Sources */,
+				A3625D869590BEFF5FCA887AF886F975 /* Frameworks */,
+				5660E28BD40BF30489EB7B28F90A5ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B279011254CC367F5447B214C776A9DD /* PBXTargetDependency */,
+				BDB7CBE09AD6267AF27FD595E678409C /* PBXTargetDependency */,
+			);
+			name = "Pods-LZDemo";
+			productName = "Pods-LZDemo";
+			productReference = E785541CECA1C40EC89ED751EDAA3BAB /* Pods_LZDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0EB6A7E7D90DA52FAD740616E7900A /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				CB0532F639114CD4F33F5197F05470DD /* Headers */,
+				87CC40F64561E15209604264A33C2ED1 /* Sources */,
+				7583301838DE65B19A81F6B3AD8E7121 /* Frameworks */,
+				BE4CC244DF787904FC177CF9BA0BA5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDD60DBD99860790B705B6C545BAB09B /* LZLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A191EA96DE52DD779BE67185F14B8159 /* Build configuration list for PBXNativeTarget "LZLogin" */;
+			buildPhases = (
+				799CC863B3E6083E755DFF6B6DC80ACE /* Headers */,
+				1B41544C21A2F08229A9C91AF83606AE /* Sources */,
+				77C92026CD06C4328AFD4F18C1924AE0 /* Frameworks */,
+				150928F4A0B404140BC0699F421414F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B9161C720524ED4A3CE998EF91CB82 /* PBXTargetDependency */,
+			);
+			name = LZLogin;
+			productName = LZLogin;
+			productReference = 1DAD02154877CC0072CD5E8382876E75 /* LZLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 41FB24FBF8520EBBE363D840B2C6227F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				FDD60DBD99860790B705B6C545BAB09B /* LZLogin */,
+				C8AFAAFF5BB436796BA5A12E27496081 /* Pods-LZDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150928F4A0B404140BC0699F421414F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5660E28BD40BF30489EB7B28F90A5ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4CC244DF787904FC177CF9BA0BA5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B41544C21A2F08229A9C91AF83606AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C170F4227474BAD5E70751A7CB295B74 /* Login.swift in Sources */,
+				1DCF6281214ED384EE4AF6BB47935488 /* LZLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C04FB420628D9AB29CD517740B1BB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317E18218547ED85344594D1CE44D15B /* Pods-LZDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC40F64561E15209604264A33C2ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB889A94E77FC8D028DB69543C45D213 /* Alamofire-dummy.m in Sources */,
+				8165AD57E20B1BF5B3594463144693E3 /* LZNetWorking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B279011254CC367F5447B214C776A9DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = D75D886AEFD88827B745695F8958C4C0 /* PBXContainerItemProxy */;
+		};
+		BDB7CBE09AD6267AF27FD595E678409C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LZLogin;
+			target = FDD60DBD99860790B705B6C545BAB09B /* LZLogin */;
+			targetProxy = 4773BF98C134170E5F388757B90ED689 /* PBXContainerItemProxy */;
+		};
+		E0B9161C720524ED4A3CE998EF91CB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 37FE1E4A78D142B49C9CF0912DA708D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		978944479DA2D7779722136D0DD15C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB4DAFA0870BF6832EB75C97EF6A31C /* Pods-LZDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZDemo/Pods-LZDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZDemo/Pods-LZDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B39839F1A7CBCF130420FBDB2DF2C40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BA3A5057012A8672C98CC173EAD0DC /* Pods-LZDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZDemo/Pods-LZDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZDemo/Pods-LZDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C73EFA6E16FEEEBBEC287D664D0085BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E578766A120FC52A1747893AF021991 /* LZLogin.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZLogin/LZLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZLogin/LZLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LZLogin/LZLogin.modulemap";
+				PRODUCT_MODULE_NAME = LZLogin;
+				PRODUCT_NAME = LZLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9A18C3FFBC743FEC41B526BE764198E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E37C51C125E155692872271690182D /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECAB4AD3BA59D61466BABA5CA1A08E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370069EF096B29CBF4D11F61B3CA207C /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F81FC85AF25C7F26D85D0F4FE2C77403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B957BEFC0C10F6246D00455ADEA2BE6 /* LZLogin.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZLogin/LZLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZLogin/LZLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LZLogin/LZLogin.modulemap";
+				PRODUCT_MODULE_NAME = LZLogin;
+				PRODUCT_NAME = LZLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E0EB6A7E7D90DA52FAD740616E7900A /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB4AD3BA59D61466BABA5CA1A08E0C /* Debug */,
+				E9A18C3FFBC743FEC41B526BE764198E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A191EA96DE52DD779BE67185F14B8159 /* Build configuration list for PBXNativeTarget "LZLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73EFA6E16FEEEBBEC287D664D0085BA /* Debug */,
+				F81FC85AF25C7F26D85D0F4FE2C77403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5DDA30D26FF9FDD811349C08122D23 /* Build configuration list for PBXNativeTarget "Pods-LZDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978944479DA2D7779722136D0DD15C26 /* Debug */,
+				B39839F1A7CBCF130420FBDB2DF2C40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
